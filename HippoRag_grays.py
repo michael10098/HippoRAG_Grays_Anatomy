@@ -40,7 +40,7 @@ QUERIES = [
 # Indexing costs roughly 20 s per passage with a local 7-9B model (NER + triples), so a
 # full run over all matching rows takes hours. The default builds a small test set:
 # passages that mention the query keywords + random distractors, so queries are answerable.
-FULL_RUN = True
+FULL_RUN = False
 PER_KEYWORD = 10        # passages kept per keyword
 N_DISTRACTORS = 40      # random other passages
 
